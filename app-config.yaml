@@ -78,6 +78,8 @@ catalog:
         - Domain
         - Location
   locations:
+    - type: url 
+      target: https://github.com/simon-ouyang-rb/demo/blob/main/catalog-info.yaml
     # Backstage example domain
     - type: url
       target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/all-domains.yaml

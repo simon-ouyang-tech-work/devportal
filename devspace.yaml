@@ -31,6 +31,13 @@ dev:
         - port: 3000
         - port: 7007
         - port: 9229
+  # `dev.autoReload` specifies rebuild and redeploy the whole application instead of 
+  # using the file synchronization and hot reloading
+  autoReload:
+    paths:
+    - ./package.json
+    - ./catalog-info.yaml
+    - ./app-config.yaml
 
   # `dev.open` tells DevSpace to open certain URLs as soon as they return HTTP status 200
   # Since we configured port-forwarding, we can use a localhost address here to access our application

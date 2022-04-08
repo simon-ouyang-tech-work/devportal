@@ -97,7 +97,7 @@ export const HomePage = () => {
               className={classes.horizontalInfoCard}
             >
               <Typography variant="body1" gutterBottom>
-                Discover current product and service documentation written by developers for developers.
+                Discover the product and service documentation written by developers for developers.
               </Typography>
             </InfoCard>
           </Grid>
