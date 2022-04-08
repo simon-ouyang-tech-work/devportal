@@ -1826,6 +1826,32 @@
     react-use "^17.2.4"
     zen-observable "^0.8.15"
 
+"@backstage/plugin-explore-react@^0.0.15":
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-explore-react/-/plugin-explore-react-0.0.15.tgz#96b1c0c07bf41d83bb710dbfdb7fb247e228a3b2"
+  integrity sha512-F88M36eyr5zZUgXpGBWDzvjmfXD4scskkrY71RWN0ztqRNx8kmoy/nlnY3NwQXY6n1m28I7GeQqMTIEKpd87Iw==
+  dependencies:
+    "@backstage/core-plugin-api" "^1.0.0"
+
+"@backstage/plugin-explore@^0.3.34":
+  version "0.3.34"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-explore/-/plugin-explore-0.3.34.tgz#1a14efee6f65f6e8151f0c284e954ad1488d0f3f"
+  integrity sha512-NqtnYGTSBCojI4aUXwAhWj6766vwCneOxhJKVCKty+ISFijTDZpa/8j6SzapO6q1BufVBdJBnuVY+OXKkU3d3A==
+  dependencies:
+    "@backstage/catalog-model" "^1.0.0"
+    "@backstage/core-components" "^0.9.2"
+    "@backstage/core-plugin-api" "^1.0.0"
+    "@backstage/plugin-catalog-react" "^1.0.0"
+    "@backstage/plugin-explore-react" "^0.0.15"
+    "@backstage/theme" "^0.2.15"
+    "@material-ui/core" "^4.12.2"
+    "@material-ui/icons" "^4.9.1"
+    "@material-ui/lab" "4.0.0-alpha.57"
+    classnames "^2.2.6"
+    react-router "6.0.0-beta.0"
+    react-router-dom "6.0.0-beta.0"
+    react-use "^17.2.4"
+
 "@backstage/plugin-github-actions@^0.5.3":
   version "0.5.3"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-github-actions/-/plugin-github-actions-0.5.3.tgz#b804d0f55bcaec30b5989b60ff28a4b944fa430b"
@@ -1844,6 +1870,24 @@
     luxon "^2.0.2"
     react-router "6.0.0-beta.0"
     react-router-dom "6.0.0-beta.0"
+    react-use "^17.2.4"
+
+"@backstage/plugin-home@^0.4.19":
+  version "0.4.19"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-home/-/plugin-home-0.4.19.tgz#a68a594557db8afdc76c2b08de7457d65258d597"
+  integrity sha512-yDu+m2zWGMqUaXZwuZWQdE8/ENdLdcobvt8q1lP/+eUXG1yO3BuBcqlss+cPkdO0d0LeW1WoJZZ20ZpYLUJ+6w==
+  dependencies:
+    "@backstage/catalog-model" "^1.0.0"
+    "@backstage/core-components" "^0.9.2"
+    "@backstage/core-plugin-api" "^1.0.0"
+    "@backstage/plugin-catalog-react" "^1.0.0"
+    "@backstage/plugin-search" "^0.7.4"
+    "@backstage/theme" "^0.2.15"
+    "@material-ui/core" "^4.12.2"
+    "@material-ui/icons" "^4.9.1"
+    "@material-ui/lab" "4.0.0-alpha.57"
+    lodash "^4.17.21"
+    react-router "6.0.0-beta.0"
     react-use "^17.2.4"
 
 "@backstage/plugin-org@^0.5.3":
@@ -5894,6 +5938,7 @@ anymatch@^3.0.3, anymatch@~3.1.2:
     "@backstage/plugin-catalog-import" "^0.8.6"
     "@backstage/plugin-catalog-react" "^1.0.0"
     "@backstage/plugin-github-actions" "^0.5.3"
+    "@backstage/plugin-home" "^0.4.19"
     "@backstage/plugin-org" "^0.5.3"
     "@backstage/plugin-permission-react" "^0.3.4"
     "@backstage/plugin-scaffolder" "^1.0.0"

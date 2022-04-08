@@ -37,3 +37,7 @@ site
 
 # Sensitive credentials
 *-credentials.yaml
+
+
+# Ignore DevSpace cache and log folder
+.devspace/
