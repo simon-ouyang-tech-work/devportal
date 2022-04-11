@@ -31,9 +31,9 @@ backend:
   # workingDirectory: /tmp # Use this to configure a working directory for the scaffolder, defaults to the OS temp-dir
 
 integrations:
-  github:
-    - host: github.com
-      token: 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
+  # github:
+  #   - host: github.com
+  #     token: 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
     ### Example for how to add your GitHub Enterprise instance using the API:
     # - host: ghe.example.net
     #   apiBaseUrl: https://ghe.example.net/api/v3
@@ -79,7 +79,7 @@ catalog:
         - Location
   locations:
     - type: url 
-      target: https://github.com/simon-ouyang-rb/demo/blob/main/catalog-info.yaml
+      target: https://github.com/simon-ouyang-demo/demo/blob/main/catalog-info.yaml
     # Backstage example domain
     - type: url
       target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/all-domains.yaml

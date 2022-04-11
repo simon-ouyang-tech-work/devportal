@@ -93,11 +93,10 @@ const routes = (
       path="/docs/:namespace/:kind/:name/*"
       element={<TechDocsReaderPage />}
     />
-    <Route path="/create" element={<ScaffolderPage />} />
     <Route path="/api-docs" element={<ApiExplorerPage />} />
     <Route
       path="/tech-radar"
-      element={<TechRadarPage width={1500} height={800} />}
+      element={<TechRadarPage width={1500} height={800} pageTitle="Inspire and support engineering teams to pick the best technologies for new projects" title="BCG Digital Venture Tech Radar" subtitle='Visualization of a company’s technology portfolio that maps the evaluated existing and emerging technologies' />}
     />
     <PermissionedRoute
       path="/catalog-import"

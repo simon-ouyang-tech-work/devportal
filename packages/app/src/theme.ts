@@ -47,7 +47,7 @@ import {
       },
     },
     defaultPageTheme: 'home',
-    fontFamily: 'Open Sans', // Lato
+    fontFamily: 'Helvetica Neue', // Lato
     /* below drives the header colors */
     pageTheme: {
       home: genPageTheme(['#8c4351', '#343b58'], shapes.wave),
