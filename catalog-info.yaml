@@ -1,14 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: bcg-engineering-team
+  description: BCG Engineering Team
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: bcg-engineering-team@example.com
+    picture: https://avatars.dicebear.com/api/initials/bcg-engineering-team@example.com%40example.com.svg?background=%23fff
+  parent: backstage
+  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: bcgdv
+  name: bcgdv-admin
 spec:
   profile:
     # Intentional no displayName for testing
-    email: bcgdv@example.com
-    picture: https://avatars.dicebear.com/api/initials/bcgdv%40example.com.svg?background=%23fff
-  memberOf: [team-a]
+    email: bcgdv-admin@example.com
+    picture: https://avatars.dicebear.com/api/initials/bcgdv-admin%40example.com.svg?background=%23fff
+  memberOf: [bcg-engineering-team]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Domain
