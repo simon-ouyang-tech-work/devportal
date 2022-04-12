@@ -15,12 +15,12 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: bcgdv-admin
+  name: bcg-engineering-team-admin
 spec:
   profile:
     # Intentional no displayName for testing
-    email: bcgdv-admin@example.com
-    picture: https://avatars.dicebear.com/api/initials/bcgdv-admin%40example.com.svg?background=%23fff
+    email: bcg-engineering-team-admin@example.com
+    picture: https://avatars.dicebear.com/api/initials/bcg-engineering-team-admin%40example.com.svg?background=%23fff
   memberOf: [bcg-engineering-team]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -29,7 +29,7 @@ metadata:
   name: engineering-domain
   title: Engineering Domain
 spec:
-  owner: bcgdv
+  owner: bcg-engineering-team
 ---
 apiVersion: backstage.io/v1alpha1
 kind: System
@@ -37,7 +37,7 @@ metadata:
   name: engineering-system
   title: Engineering System
 spec:
-  owner: bcgdv
+  owner: bcg-engineering-team
   domain: engineering-domain
 ---
 apiVersion: backstage.io/v1alpha1
@@ -51,6 +51,6 @@ metadata:
   #   backstage.io/techdocs-ref: dir:.
 spec:
   type: website
-  owner: bcgdv
+  owner: bcg-engineering-team
   system: engineering-system
   lifecycle: experimental
