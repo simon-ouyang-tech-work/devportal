@@ -10,7 +10,7 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: engineering-system
-  title: GridInit
+  title: Engineering System
 spec:
   owner: bcgdv
   domain: engineering-domain
