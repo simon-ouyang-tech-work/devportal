@@ -13,12 +13,27 @@ BCGDV Developer Portal removes friction during onboarding and improves the devel
 BCGDV Developer Portal is using [Backstage.io](https://backstage.io) framework.
 
 ### Documentation
+
 All docs are put in `docs` folder
 
-### Quick Start
+## Quick Start
+
+### start the application
+
 To start the app, run:
 
 ```sh
 yarn install
 yarn dev
+```
+
+### Create Docker Image 
+
+- Install and Build application
+
+```sh
+yarn install
+yarn dev
+yarn build
+yarn build-image
 ```
