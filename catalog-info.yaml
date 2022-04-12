@@ -13,7 +13,7 @@ metadata:
   title: GridInit
 spec:
   owner: bcgdv
-  domain: GridStack
+  domain: engineering-domain
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
