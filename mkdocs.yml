@@ -1,0 +1,7 @@
+site_name: gridinit-devportal
+site_description: GridStack Developer Portal
+
+nav:
+  - Introduction: index.md
+  - Project Documentation: project-documentation.md
+  - DevPortal Catalog Description: devportal-catalog-description.md

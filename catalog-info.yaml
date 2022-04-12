@@ -1,4 +1,21 @@
 apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: engineering-domain
+  title: Engineering Domain
+spec:
+  owner: bcgdv
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: engineering-system
+  title: GridInit
+spec:
+  owner: bcgdv
+  domain: GridStack
+---
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: devportal
@@ -9,5 +26,6 @@ metadata:
   #   backstage.io/techdocs-ref: dir:.
 spec:
   type: website
-  owner: john@example.com
+  owner: bcgdv
+  system: engineering-system
   lifecycle: experimental
