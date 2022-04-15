@@ -70,6 +70,21 @@
          "title":"TypeScript",
          "quadrant":"languages"
       },
+            {
+         "timeline":[
+            {
+               "moved":0,
+               "ringId":"use",
+               "date":"2020-08-06T00:00:00.000Z",
+               "description":"TypeScript is widely and actively used in ventures"
+            }
+         ],
+         "url":"https://www.typescriptlang.org/",
+         "key":"c-sharp",
+         "id":"c-sharp",
+         "title":"c Sharp",
+         "quadrant":"languages"
+      },
       {
          "timeline":[
             {
