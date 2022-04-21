@@ -82,29 +82,29 @@ catalog:
       target: https://github.com/simon-ouyang-tech-work/devportal/blob/main/catalog-info.yaml
     # Backstage example domain
     - type: url
-      target: https://github.com/simon-ouyang-tech-work/backstage/backstage/blob/master/packages/catalog-model/examples/all-domains.yaml
+      target: https://github.com/simon-ouyang-tech-work/backstage/blob/master/packages/catalog-model/examples/all-domains.yaml
  # Backstage example docs
     - type: url
-      target: https://github.com/simon-ouyang-tech-work/backstage/backstage/blob/master/plugins/techdocs-backend/examples/documented-component/catalog-info.yaml
+      target: https://github.com/simon-ouyang-tech-work/backstage/blob/master/plugins/techdocs-backend/examples/documented-component/catalog-info.yaml
     # Backstage example components
     - type: url
-      target: https://github.com/simon-ouyang-tech-work/backstage/backstage/blob/master/packages/catalog-model/examples/all-components.yaml
+      target: https://github.com/simon-ouyang-tech-work/backstage/blob/master/packages/catalog-model/examples/all-components.yaml
 
     # Backstage example systems
     - type: url
-      target: https://github.com/simon-ouyang-tech-work/backstage/backstage/blob/master/packages/catalog-model/examples/all-systems.yaml
+      target: https://github.com/simon-ouyang-tech-work/backstage/blob/master/packages/catalog-model/examples/all-systems.yaml
 
     # Backstage example APIs
     - type: url
-      target: https://github.com/simon-ouyang-tech-work/backstage/backstage/blob/master/packages/catalog-model/examples/all-apis.yaml
+      target: https://github.com/simon-ouyang-tech-work/backstage/blob/master/packages/catalog-model/examples/all-apis.yaml
 
     # Backstage example resources
     - type: url
-      target: https://github.com/simon-ouyang-tech-work/backstage/backstage/blob/master/packages/catalog-model/examples/all-resources.yaml
+      target: https://github.com/simon-ouyang-tech-work/backstage/blob/master/packages/catalog-model/examples/all-resources.yaml
 
     # Backstage example organization groups
     - type: url
-      target: https://github.com/simon-ouyang-tech-work/backstage/backstage/blob/master/packages/catalog-model/examples/acme/org.yaml
+      target: https://github.com/simon-ouyang-tech-work/backstage/blob/master/packages/catalog-model/examples/acme/org.yaml
 
     # Backstage example templates
     - type: url
