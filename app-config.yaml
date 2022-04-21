@@ -79,7 +79,7 @@ catalog:
         - Location
   locations:
     - type: url
-      target: https://github.com/simon-ouyang-tech-work/team-group-test/main/team-group-f.yaml
+      target: https://github.com/simon-ouyang-tech-work/team-group-test/blob/main/team-group-f.yaml
     - type: url 
       target: https://github.com/simon-ouyang-tech-work/devportal/blob/main/catalog-info.yaml
     # Backstage example domain
